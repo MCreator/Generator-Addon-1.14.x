@@ -29,7 +29,7 @@
         "value": ${data.slipperiness}
       },
       "minecraft:block_light_emission": {
-        "emission": ${data.luminance}
+        "emission": ${data.luminance / 15}
       },
       "minecraft:flammable": {
         "flame_odds": ${data.flammability},
